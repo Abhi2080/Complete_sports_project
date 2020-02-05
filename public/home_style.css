@@ -1,0 +1,166 @@
+body{
+    background-color: #fff0bc !important;
+
+}
+/* navigation starts */
+.navbar{
+    background-color: #f05a28;
+    padding: 0;
+
+}
+
+
+.name{
+    display: inline-block;
+    color: black;
+    font-size: 1.7rem;
+}
+.menu li{
+    margin: 0 2%;
+}
+.menu a{
+    font-size: 1em;
+    color: white;
+}
+
+.dropdown-menu{
+    background-color: #f05a28 !important;
+    padding: 0 !important;
+}
+.navbar-nav {
+    margin: 0 auto;
+    width: 80%;
+}
+@media (max-width: 1480px){
+    .navbar-nav {
+        margin: 0 0 0 auto;
+    }
+}
+
+@media (max-width: 718px){
+    .name{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 420px){
+    .name{
+        font-size: 0.7rem;
+    }
+}
+
+.navbar img{
+   margin: auto;
+}
+
+.navbar button{
+    border: black 2px solid;
+}
+/* navigation ends */
+
+/* carousel starts */
+#carouselExampleControls{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#carouselExampleControls img{
+    height: 50%;
+    padding: 0 5%;
+}
+
+/* carousel ends */
+
+.container-fluid{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7931e;
+    font-size: 3rem;
+    padding: 5% 0;
+}
+@media (max-width: 1250px){
+    .container-fluid{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 850px){
+    .container-fluid{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 450px){
+    .container-fluid{
+        font-size: 1.2rem;
+    }
+}
+.sir{
+    margin: 5% 0 !important;
+    padding: 0 !important;
+}
+.sir img{
+    width: 100%;
+    border-radius: 100%;
+    height: 100%;
+}
+
+.sir .row{
+    margin: 0% !important;
+}
+.sir .row .col-md-3{
+    padding-left: 5%;
+}
+.sir .saso{
+    text-align: center;
+}
+
+/* third */
+
+.third{
+    background-color: #e7dcb4;
+    text-align: center;
+    align-items: center;
+}
+
+.third .row div{
+    padding: 50px 50px;
+}
+
+/* end of third */
+
+/* fourth */
+.fourth{
+    margin: 40px auto;
+    align-items: center;
+   
+}
+.fourth .row div{
+    border: 3px solid #c9753d;    
+    border-radius: 4%;
+    background-color: #e6a157;
+}
+
+.fourth .row div h2{
+    padding: 5px;
+    text-align: center;
+    font-size: 2.1rem;
+}
+.fourth .row div ul a{
+    color: blanchedalmond;
+}
+
+.fourth .row .row3 input{
+    margin-left: 10px;
+}
+
+.fourth .row .row3 label{
+    margin-left: 5%;
+    width: 20%;
+}
+
+.media{
+    margin: 10px 40%;
+
+}
